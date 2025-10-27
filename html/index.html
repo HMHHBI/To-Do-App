@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HMH Daily ToDo's — Your busy life routine Solution!</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/nav.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/todo-add.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+  </head>
+  <body>
+    <header>
+      <div class="brand">
+        <a href="#" class="logo"><h1>HMH Daily ToDo's</h1></a>
+        <p>Your busy life routine Solution!</p>
+      </div>
+
+      <nav class="main-nav">
+        <div class="menu-toggle">&#9776;</div>
+        <ul class="nav-links">
+          <li><a href="#">All</a></li>
+          <li><a href="#">House Chores</a></li>
+          <li><a href="#">Child Related</a></li>
+          <li><a href="#">Daily Religious Time</a></li>
+          <li><a href="#">Working Men's/Women's</a></li>
+          <li><a href="#">Meetings</a></li>
+          <li><a href="#">Health Appointments (If any)</a></li>
+          <li><a href="#">Others</a></li>
+        </ul>
+        <div class="search">
+          <label for="search-input">🔎</label>
+          <input id="search-input" type="text" placeholder="Type here..." />
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="todo">
+        <h1 class="todo-heading">Your Todos</h1>
+        <p class="todo-content">
+          Start organizing your daily life efficiently!
+        </p>
+        <div class="todo-add">
+          <input type="text" class="display" />
+          <select class="category-select">
+            <option value="All">All</option>
+            <option value="House Chores">House Chores</option>
+            <option value="Child Related">Child Related</option>
+            <option value="Daily Religious Time">Daily Religious Time</option>
+            <option value="Working Men/Women">Working Men/Women</option>
+            <option value="Meetings">Meetings</option>
+            <option value="Health Appointments">Health Appointments</option>
+            <option value="Others">Others</option>
+            <option value="Custom">➕ Custom Category</option>
+          </select>
+          <input
+            type="text"
+            class="custom-category-input"
+            placeholder="Custom Category..."
+            style="display: none"
+          />
+
+          <button class="add-btn">Add Todo</button>
+        </div>
+        <div class="todos"></div>
+        <button class="clear-history">Clear History</button>
+      </div>
+    </main>
+
+    <footer>
+      <div>
+        <p>
+          All rights reserved for HMH Daily ToDo's.
+          <span><a href="#">Copyright &copy; 2025.</a></span>
+        </p>
+      </div>
+    </footer>
+    <script type="module" src="../js/main.js"></script>
+    <script type="module" src="../js/menu-toggle.js"></script>
+  </body>
+</html>

@@ -1,0 +1,132 @@
+.todo-add {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.display {
+  box-sizing: border-box;
+  height: 50px;
+  width: 70%;
+  margin: 20px 0;
+  padding: 10px;
+  flex: 1;
+  font-size: 24px;
+  background: #f2f2f2;
+  border: none;
+  border-radius: 10px;
+  box-shadow:  0 2px 4px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  outline: none;
+}
+
+.add-btn {
+  box-sizing: border-box;
+  width: 20%;
+  height: 50px;
+  border: none;
+  background: #F8688C;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.add-btn:hover {
+  background: #86273f;
+}
+
+.todos {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: left;
+}
+
+.todo-item {
+  background: #f7f7f7;
+  border-radius: 8px;
+  padding: 10px 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  transition: transform 0.2s;
+}
+
+.todo-item:hover {
+  transform: scale(1.02);
+}
+
+.indexing {
+  text-align: center;
+  font-weight: bold;
+  color: #555;
+  margin-right: 10px;
+  background-color: #A0E7E5;
+  padding: 5px;
+}
+
+.indexing:hover { filter: brightness(0.9); }
+
+.indexing, .delete-btn, .toggle-btn  {
+  border-radius: 5px;
+  width: 10%;
+}
+
+.each-todo-content {
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #A0E7E5;
+  width: 70%;
+  font-weight: bold;
+  word-spacing: 5px;
+  letter-spacing: 1px;
+  line-height: 24px;
+}
+
+.toggle-btn {
+  background: transparent;
+  border: none;
+  color: #f14b4b;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.toggle-btn, .delete-btn {
+  background: transparent;
+  border: none;
+  color: #f14b4b;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.delete-btn:hover {
+  color: #b72828;
+}
+
+.clear-history {
+  margin-top: 10px;
+  padding: 10px;
+  background: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.clear-history:hover {
+  background: #c0392b;
+}
