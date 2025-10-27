@@ -1,6 +1,5 @@
 // storage.js
 const STORAGE_KEY = "todo-history";
-const STORAGE_KEY1 = "todo-categories";
 
 export function getHistory() {
   return JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
