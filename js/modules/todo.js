@@ -1,5 +1,5 @@
 // js/modules/todo.js
-import { getHistory, saveHistory } from "./storage.js";
+import { getHistory, saveHistory } from "./storage";
 import { addCategoryToNav } from "../main.js"; // ✅ import function from main.js
 
 function emitUpdate() {
