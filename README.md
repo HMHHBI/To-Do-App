@@ -12,7 +12,7 @@ This project features memory functions, calculation history, and keyboard suppor
 ## 🚀 Live Demo
 🔗 **[Click here to use the Calculator](https://hmhhbi.github.io/To-Do-App/)**
 
-![Calculator Preview](https://raw.githubusercontent.com/HMHHBI/To-Do-App/main/preview.png)
+![To-Do-App Preview](https://raw.githubusercontent.com/HMHHBI/To-Do-App/main/preview.png)
 
 > 💡 *(Tip: Upload a screenshot named `preview.png` in your repo to show it above.)*
 
