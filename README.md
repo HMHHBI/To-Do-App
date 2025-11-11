@@ -1,4 +1,4 @@
-# 🧮 HMH Calculator
+# 🧮 HMH To-Do-App
 
 [![GitHub Pages](https://img.shields.io/badge/Deployed-GitHub%20Pages-blue?style=flat-square&logo=github)](https://hmhhbi.github.io/To-Do-App/)
 [![Made with JavaScript](https://img.shields.io/badge/Made%20with-JavaScript-yellow?style=flat-square&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
@@ -10,7 +10,7 @@ This project features memory functions, calculation history, and keyboard suppor
 ---
 
 ## 🚀 Live Demo
-🔗 **[Click here to use the Calculator](https://hmhhbi.github.io/To-Do-App/)**
+🔗 **[Click here to use the To-Do-App](https://hmhhbi.github.io/To-Do-App/)**
 
 ![To-Do-App Preview](https://raw.githubusercontent.com/HMHHBI/To-Do-App/main/preview.png)
 
